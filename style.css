@@ -1,0 +1,119 @@
+/* style.css */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Open+Sans:wght@300;400&family=Montserrat:wght@500&display=swap');
+
+/* Universal reset for consistent styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all 0.3s ease-in-out; /* Smooth transitions on all elements */
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.7;
+    color: #333;
+    background: linear-gradient(to right, #ada996, #f2f2f2, #dbdbdb, #eaeaea); /* Multi-stop gradient for background */
+    padding-top: 100px; /* Space for fixed header */
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: linear-gradient(to right, #ff5f6d, #ffc371); /* Warm gradient for header */
+    color: #FFF;
+    padding: 15px 0;
+    text-align: center;
+    box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+    z-index: 1000; /* Keep header above all other elements */
+}
+
+header h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5em;
+    font-weight: 700; /* Bold title */
+}
+
+main {
+    padding: 50px 20px; /* Spacing around main content */
+}
+
+section {
+    margin-bottom: 50px; /* Spacing between sections */
+    background: #ffffff; /* White background for contrast */
+    padding: 20px; /* Inner spacing */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+}
+
+section:hover {
+    transform: scale(1.05); /* Slight growth effect on hover */
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2em;
+    color: #ff5f6d; /* Warm tone, matching the header */
+    margin: 20px 0; /* Spacing around heading */
+    padding-bottom: 5px; /* Space below heading */
+    border-bottom: 4px solid #ff5f6d; /* Accent line */
+    font-weight: 700; /* Bold heading */
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+    color: #333; /* Standard text color */
+    margin: 15px 0; /* Spacing around subheading */
+    font-weight: 500; /* Slightly bold subheading */
+}
+
+figure {
+    border-radius: 8px; /* Rounded corners for images */
+    overflow: hidden; /* Ensures border radius is applied */
+    box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+}
+
+figure:hover {
+    transform: scale(1.05); /* Slight growth effect on hover */
+}
+
+figcaption {
+    text-align: center; /* Centered caption */
+    margin-top: 5px; /* Spacing above caption */
+    font-style: italic; /* Italicized font style */
+    color: #555; /* Subtle text color */
+}
+
+ul {
+    list-style: none; /* Remove default list styling */
+    padding-left: 20px; /* Space for custom list styling */
+}
+
+ul li {
+    padding: 5px 0; /* Spacing between list items */
+}
+
+
+
+/* Addendum styles */
+aside#addendum {
+    background-color: #f7f7f7; /* Light background for contrast */
+    padding: 30px; /* Inner spacing */
+    margin-top: 30px; /* Spacing above addendum */
+    border-top: 3px solid #ff5f6d; /* Accent line matching the theme */
+}
+
+aside#addendum h2 {
+    font-size: 1.8em; /* Larger font size for heading */
+    margin-bottom: 15px; /* Spacing below heading */
+    color: #ff5f6d; /* Theme color */
+}
+
+aside#addendum p {
+    color: #555; /* Subtle text color */
+    font-size: 1em; /* Standard text size */
+}
+
+/* Additional responsive design elements and specific styles can be added as needed */
